@@ -1,0 +1,52 @@
+* Future Topics
+** Programming (pragmatic)
+*** Performance Engineering
+**** Improving Cache Usage
+***** Subtopics ...
+**** Other topics needed ...
+*** Visualizing Data Structures with dot
+**** Part 0: the dot Language
+     Basic dot usage.  Node shapes.  Colors.
+**** Part 1: Advanced dot commands.
+     Labels.  Records.  Ports.
+**** Part 2: Visualizing C data structures.
+     Complete program
+**** Part 3: Visualizing Java data structures.
+     Using java reflection to automagically create dot file.
+** Theory
+*** Math
+**** Numerical Solution Differential Equations
+***** Part 0 :  Basics
+      Single DE's.  Systems of DE's.
+***** Part 1 : Euler's method.
+***** Part 2 : Runge-Kutta methods.
+**** Using LAPack for Matrix Math.
+***** Example: matrix inversion
+***** Example: finding eigenvalues
+*** Physics
+**** Physics without F=ma
+***** Part 0 : Lagrangian Mechanics
+      Principle of least action, Generalized quantities.
+      Euler-Langrange eq.
+***** Part 1 : Dynamics with Lagrange's Equations
+      Double pendulum.
+***** Part 2 : Programming the Double Pendulum.
+      Use DE code 'splained before.
+*** Comp. Sci
+**** PEGs (Parsing Expression Grammars)
+**** Boyer-Moore String Search.
+**** Regular Expression Derivatives and Their Uses
+**** Computational Geometry.
+***** Convex Hulls
+***** Quadtrees
+***** Octtrees
+***** Line Segment Intersection
+***** Polygon Triangulation
+***** Range Searching
+** Emacs
+*** Customization
+**** Elisp
+*** Emacs Tips
+**** Push/pop-and-move to mark for efficient movement.
+**** Eshell goodies.
+****

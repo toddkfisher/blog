@@ -1,0 +1,9 @@
+digraph port {
+  ordering=out;
+  root [shape=record,label="<L0>link0|<L1>link1|<L2>link2|<L3>link3|<L4>link4"];
+  root:L0 -> child0;
+  root:L1 -> child1;
+  root:L2 -> child2;
+  root:L3 -> child3;
+  root:L4 -> child4;
+}

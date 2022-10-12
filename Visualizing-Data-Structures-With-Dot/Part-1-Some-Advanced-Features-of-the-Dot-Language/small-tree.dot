@@ -1,0 +1,8 @@
+digraph smalltree {
+  ordering=out;
+  0 [label="parent"];
+  1 [label="child one"];
+  2 [label="child two"];
+  0 -> 1;
+  0 -> 2;
+}

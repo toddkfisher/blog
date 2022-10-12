@@ -1,0 +1,19 @@
+digraph quadtree {
+  N0x6af010 [shape=record, label="{Rectangle:-128,128,128,-128|{<ne>ne|<se>se|<sw>sw|<nw>nw}}"];
+  N0x6af010:ne -> N0x6af0d0;
+  N0x6af010:se -> N0x6af110;
+  N0x6af010:sw -> N0x6af150;
+  N0x6af010:nw -> N0x6af190;
+  N0x6af0d0 [shape=record, label="{Rectangle:0,128,128,0|{No Data}}"];
+  N0x6af110 [shape=record, label="{Rectangle:0,-1,128,-128|{<ne>ne|<se>se|<sw>sw|<nw>nw}}"];
+  N0x6af110:ne -> N0x6af2d0;
+  N0x6af110:se -> N0x6af310;
+  N0x6af110:sw -> N0x6af350;
+  N0x6af110:nw -> N0x6af390;
+  N0x6af2d0 [shape=record, label="{Rectangle:64,-1,128,-64|{No Data}}"];
+  N0x6af310 [shape=record, label="{Rectangle:64,-65,128,-128|{\"C\" (96, -96)}}"];
+  N0x6af350 [shape=record, label="{Rectangle:0,-65,63,-128|{No Data}}"];
+  N0x6af390 [shape=record, label="{Rectangle:0,-1,63,-64|{\"B\" (32, -32)}}"];
+  N0x6af150 [shape=record, label="{Rectangle:-128,-1,-1,-128|{\"X3\" (-64, -64)|\"X1\" (-64, -64)|\"X0\" (-64, -64)|\"X2\" (-64, -64)}}"];
+  N0x6af190 [shape=record, label="{Rectangle:-128,128,-1,0|{\"A\" (-64, 64)}}"];
+}

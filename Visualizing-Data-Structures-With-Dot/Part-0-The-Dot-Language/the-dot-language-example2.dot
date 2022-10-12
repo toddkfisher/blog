@@ -1,0 +1,19 @@
+digraph bintree {
+  ordering=out;
+  1  [shape=rectangle];
+  3  [shape=rectangle];
+  6  [shape=rectangle];
+  7  [shape=rectangle];
+  13 [shape=rectangle];
+  20 [shape=rectangle];
+  10 -> 5;
+  10 -> 15;
+  5  -> 2;
+  5  -> 8;
+  2  -> 1;
+  2  -> 3;
+  8  -> 6;
+  8  -> 7;
+  15 -> 13;
+  15 -> 20;
+}

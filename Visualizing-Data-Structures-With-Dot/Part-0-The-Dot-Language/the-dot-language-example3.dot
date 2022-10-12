@@ -1,0 +1,24 @@
+digraph bintree {
+  ordering=out;
+  1        [shape=rectangle, color=palegreen,style=filled];
+  3        [shape=rectangle, color=palegreen,style=filled];
+  6        [shape=rectangle, color=palegreen,style=filled];
+  7        [shape=rectangle, color=palegreen,style=filled];
+  13       [shape=rectangle, color=palegreen,style=filled];
+  20       [shape=rectangle, color=palegreen,style=filled];
+  10       [color=brown];
+  5        [color=brown];
+  2        [color=brown];
+  8        [color=brown];
+  15       [color=brown];
+  10 -> 5  [color=brown];
+  10 -> 15 [color=brown];
+  5  -> 2  [color=brown];
+  5  -> 8  [color=brown];
+  2  -> 1  [color=brown];
+  2  -> 3  [color=brown];
+  8  -> 6  [color=brown];
+  8  -> 7  [color=brown];
+  15 -> 13 [color=brown];
+  15 -> 20 [color=brown];
+}

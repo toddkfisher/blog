@@ -1,0 +1,5 @@
+digraph smalltree {
+  ordering=out;
+  0 -> 1;
+  0 -> 2;
+}

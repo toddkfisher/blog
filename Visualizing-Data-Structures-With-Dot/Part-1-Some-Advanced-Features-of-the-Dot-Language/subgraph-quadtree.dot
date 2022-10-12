@@ -1,0 +1,32 @@
+digraph quadtree {
+  N0x01 [shape=record,
+         label="{Rectangle:-128,128,128,-128|{<ne>ne|<se>se|<sw>sw|<nw>ne}}"];
+  N0x01:ne -> N0x02;
+  N0x01:se -> N0x03;
+  N0x01:sw -> N0x04;
+  N0x01:nw -> N0x05;
+  subgraph cluster_0 {
+    label="Level 1 nodes";
+    color=blue;
+    N0x02 [shape=record,
+           label="{Rectangle:0,128,128,0|No Data}"];
+    N0x03 [shape=record,
+           label="{Rectangle:0,0,128,-128|{<ne>ne|<se>se|<sw>sw|<nw>ne}}"];
+    N0x04 [shape=record,
+           label="{Rectangle:-128,0,0,-128|{Data:\"D\"|Data (x,y):-64,-64}}"];
+  }
+  N0x03:ne -> N0x06;
+  N0x03:se -> N0x07;
+  N0x03:sw -> N0x08;
+  N0x03:nw -> N0x09;
+  N0x05 [shape=record,
+         label="{Rectangle:-128,128,0,0|{Data:\"A\"|Data (x,y):-64,64}}"];
+  N0x06 [shape=record,
+         label="{Rectangle:64,0,128,-64|No Data}"];
+  N0x07 [shape=record,
+         label="{Rectangle:64,-64,128,-128|{Data:\"C\"|Data (x,y):96,-96}}"];
+  N0x08 [shape=record,
+         label="{Rectangle:0,-64,128,-128|No Data}"];
+  N0x09 [shape=record,
+         label="{Rectangle:0,0,64,-64|{Data:\"B\"|Data (x,y):32,-32}}"];
+}
